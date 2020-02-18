@@ -56,7 +56,16 @@ $logo
     }
 
 
-    if ($option -eq "6"){(curl http://ipinfo.io/ip).content}
+    if ($option -eq "6"){
+    
+    $publicip = (curl http://ipinfo.io/ip).content
+    
+    Write-Output ""
+    Write-Output "Your Public IP: $publicip"
+    Write-Output ""
+   
+    
+    }
 
 
 
