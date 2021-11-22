@@ -37,7 +37,7 @@ $logo
 
     if ($option -eq "1"){powershell –nop –c “iex(New-Object Net.WebClient).DownloadString(‘https://raw.githubusercontent.com/securethelogs/PSpanner/master/PSpanner.ps1’)”}
     if ($option -eq "2"){powershell –nop –c “iex(New-Object Net.WebClient).DownloadString(‘https://raw.githubusercontent.com/securethelogs/PSdnsresolver/master/PSdnsresolver.ps1’)”}
-    if ($option -eq "3"){powershell –nop –c “iex(New-Object Net.WebClient).DownloadString(‘https://raw.githubusercontent.com/securethelogs/Bluechecker/master/Bluechecker.ps1’)”}
+    if ($option -eq "3"){powershell –nop –c “iex(New-Object Net.WebClient).DownloadString(‘https://raw.githubusercontent.com/securethelogs/Bluechecker/master/BlueChecker.ps1')”}
     if ($option -eq "4"){powershell –nop –c “iex(New-Object Net.WebClient).DownloadString(‘https://raw.githubusercontent.com/securethelogs/PSBruteZip/master/PSBruteZip.ps1’)”}
     
     
